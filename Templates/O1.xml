@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Generated Workflow" id="0">
+    <mxGraphModel dx="3100" dy="1236" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4YDDUZZC.ML1" value="ML1" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4YDDUZZC.ML2" value="ML2" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4YDDUZZC.ML3" value="ML3" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4YDDUZZC.ML4" value="ML4" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4YDDUZZC.KR1" value="KR1" style="shape=rectangle;fillColor=#00FF00;strokeColor=#008000;" parent="1" vertex="1">
+          <mxGeometry y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d1" value="Data1" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d2" value="Data2" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="400" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d3" value="Data3" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d4" value="Data4" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="200" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d5" value="Data5" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d6" value="Data6" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.d7" value="Data7" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.4YDDUZZC.sw1" value="SW1" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Resource.ConceptNet" value="SW2" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d1_4YDDUZZC.ML1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d1" target="4YDDUZZC.ML1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.ML1_Custom.4YDDUZZC.d2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.ML1" target="Custom.4YDDUZZC.d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d3_4YDDUZZC.ML2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d3" target="4YDDUZZC.ML2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.ML2_Custom.4YDDUZZC.d4" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.ML2" target="Custom.4YDDUZZC.d4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.ML2_Custom.4YDDUZZC.sw1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.ML2" target="Custom.4YDDUZZC.sw1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d5_4YDDUZZC.ML3" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d5" target="4YDDUZZC.ML3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.ML3_Custom.4YDDUZZC.d6" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.ML3" target="Custom.4YDDUZZC.d6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d2_4YDDUZZC.ML4" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d2" target="4YDDUZZC.ML4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d4_4YDDUZZC.ML4" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d4" target="4YDDUZZC.ML4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d6_4YDDUZZC.ML4" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d6" target="4YDDUZZC.ML4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.ML4_Custom.4YDDUZZC.d7" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.ML4" target="Custom.4YDDUZZC.d7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.d1_4YDDUZZC.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.d1" target="4YDDUZZC.KR1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.4YDDUZZC.sw1_4YDDUZZC.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.4YDDUZZC.sw1" target="4YDDUZZC.KR1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Resource.ConceptNet_4YDDUZZC.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Resource.ConceptNet" target="4YDDUZZC.KR1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_4YDDUZZC.KR1_Custom.4YDDUZZC.d5" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4YDDUZZC.KR1" target="Custom.4YDDUZZC.d5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Generated Workflow" id="0">
+    <mxGraphModel dx="1809" dy="971" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2RPJWJKG.ML1" value="ML1" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2RPJWJKG.KR1" value="KR1" style="shape=rectangle;fillColor=#00FF00;strokeColor=#008000;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Resource.WineCloud" value="SW1" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.2RPJWJKG.sw2" value="SW2" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Resource.WineCloud_2" value="SW3" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="200" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.2RPJWJKG.sw4" value="SW4" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Resource.WineCloud_2RPJWJKG.ML1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Resource.WineCloud" target="2RPJWJKG.ML1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2RPJWJKG.ML1_Custom.2RPJWJKG.sw2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2RPJWJKG.ML1" target="Custom.2RPJWJKG.sw2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.2RPJWJKG.sw2_2RPJWJKG.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.2RPJWJKG.sw2" target="2RPJWJKG.KR1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Resource.WineCloud_2_2RPJWJKG.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Resource.WineCloud_2" target="2RPJWJKG.KR1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_2RPJWJKG.KR1_Custom.2RPJWJKG.sw4" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2RPJWJKG.KR1" target="Custom.2RPJWJKG.sw4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Generated Workflow" id="0">
+    <mxGraphModel dx="1971" dy="907" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="33YAWNTG.ML1" value="ML1" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.33YAWNTG.sw2" value="SW1" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="-100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rnHWcI4adPcEA8_NJHBX-2" value="Data2" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry y="311" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rnHWcI4adPcEA8_NJHBX-13" style="edgeStyle=straight;curved=0;rounden=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rnHWcI4adPcEA8_NJHBX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="229" as="sourcePoint" />
+            <mxPoint x="170" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnHWcI4adPcEA8_NJHBX-51" value="SW2" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="101" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rnHWcI4adPcEA8_NJHBX-52" style="edgeStyle=straight;curved=0;rounden=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Custom.33YAWNTG.sw2" target="33YAWNTG.ML1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-79" y="188" as="sourcePoint" />
+            <mxPoint x="-79" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnHWcI4adPcEA8_NJHBX-53" style="edgeStyle=straight;curved=0;rounden=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rnHWcI4adPcEA8_NJHBX-51" target="33YAWNTG.ML1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="249" as="sourcePoint" />
+            <mxPoint x="80" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

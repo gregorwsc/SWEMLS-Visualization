@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Generated Workflow" id="0">
+    <mxGraphModel dx="1563" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DRZHIB2W.ML1" value="ML1" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.DRZHIB2W.d1" value="Data1" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="199" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Resource.Missing_Info" value="SW1" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.DRZHIB2W.sw2" value="SW2" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_DRZHIB2W.ML1_Custom.DRZHIB2W.sw2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DRZHIB2W.ML1" target="Custom.DRZHIB2W.sw2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Resource.Missing_Info_DRZHIB2W.KR1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Resource.Missing_Info" target="DRZHIB2W.ML1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hdu0-dYVC71PnulkMJ2O-1" value="ML2" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hdu0-dYVC71PnulkMJ2O-3" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Custom.DRZHIB2W.sw2" target="Hdu0-dYVC71PnulkMJ2O-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="331" as="sourcePoint" />
+            <mxPoint x="100" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hdu0-dYVC71PnulkMJ2O-4" style="edgeStyle=straight;curved=0;rounden=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hdu0-dYVC71PnulkMJ2O-1" target="Custom.DRZHIB2W.d1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="216" y="434" as="sourcePoint" />
+            <mxPoint x="229" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hdu0-dYVC71PnulkMJ2O-5" style="edgeStyle=straight;curved=0;rounden=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Custom.DRZHIB2W.d1" target="DRZHIB2W.ML1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="249" as="sourcePoint" />
+            <mxPoint x="399" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

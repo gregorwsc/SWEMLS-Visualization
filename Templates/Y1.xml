@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Generated Workflow" id="0">
+    <mxGraphModel dx="858" dy="680" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5VFNXKX3.ML1" value="ML1" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VFNXKX3.ML2" value="ML2" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VFNXKX3.ML3" value="ML3" style="shape=rectangle;fillColor=#00FFFF;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.5VFNXKX3.d1" value="Data1" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.5VFNXKX3.d2" value="Data2" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="200" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.5VFNXKX3.d3" value="Data3" style="shape=hexagon;fillColor=#CCCCCC;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.5VFNXKX3.sw1" value="SW1" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Custom.5VFNXKX3.sw2" value="SW2" style="shape=hexagon;fillColor=#B9E0A5;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.5VFNXKX3.sw1_5VFNXKX3.ML1" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.5VFNXKX3.sw1" target="5VFNXKX3.ML1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5VFNXKX3.ML1_Custom.5VFNXKX3.d2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5VFNXKX3.ML1" target="Custom.5VFNXKX3.d2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.5VFNXKX3.d1_5VFNXKX3.ML2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.5VFNXKX3.d1" target="5VFNXKX3.ML2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5VFNXKX3.ML2_Custom.5VFNXKX3.d3" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5VFNXKX3.ML2" target="Custom.5VFNXKX3.d3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.5VFNXKX3.d2_5VFNXKX3.ML3" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.5VFNXKX3.d2" target="5VFNXKX3.ML3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Custom.5VFNXKX3.d3_5VFNXKX3.ML3" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Custom.5VFNXKX3.d3" target="5VFNXKX3.ML3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_5VFNXKX3.ML3_Custom.5VFNXKX3.sw2" style="edgeStyle=straight;curved=0;rounden=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5VFNXKX3.ML3" target="Custom.5VFNXKX3.sw2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
